@@ -1,0 +1,861 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+}
+
+body {
+    background-color: rgb(212, 224, 230);
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    padding: 10px 20px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* logo styling */
+
+#logo img {
+    /* filter: saturate(50%); */
+    padding-left: 40px;
+    width: 200px;
+
+
+
+}
+
+/* login and signup */
+
+.login strong {
+    padding: 12.5px 30px;
+    margin: 10px;
+    border: 0;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#sign strong {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #0d6e5e;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for button styling */
+
+button {
+    padding: 12.5px 20px;
+    margin: 15%;
+    border: 0;
+    border-radius: 100px;
+    background-color: #06473c;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* for main boy styling */
+
+img {
+    float: right;
+    width: 45%;
+    mix-blend-mode: multiply;
+    /* margin-right: 30px; */
+}
+
+/* styling for girl in a circle  */
+
+.img2 {
+    max-width: 15%;
+    /* mix-blend-mode: exclusion; */
+    height: fit-content;
+    position: absolute;
+    top: 70%;
+    left: 54%
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: #0d6e5e;
+    margin-top: 10% auto;
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 47%;
+    left: 85%;
+}
+
+/* #logoicon{
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    height: 400px;
+    width: 300px;
+    overflow-y: visible;
+} */
+
+.circle i {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.circle b {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    font-size: 50px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.circle p {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 70%;
+    font-size: 1.7em;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.image {
+    display: inline;
+    padding-left: 15%;
+    padding-right: 10px;
+
+}
+
+.image h1 {
+    font-size: 55px;
+    margin-top: 10%;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    font-size: 20px;
+    margin-top: 70px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling for container2  */
+
+.container2 {
+    background-color: white;
+    padding: 30px;
+}
+
+.container2 h3 {
+    display: inline;
+    font-size: 25px;
+    padding-left: 10%;
+    /* padding: 20px; */
+    margin-top: 40px;
+
+}
+
+#sponserlogo {
+    max-width: 10%;
+    display: inline-flex;
+    padding-left: 20%;
+
+}
+
+#sponserlogo img {
+    display: inline;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+/* styling for conrainer3  */
+
+.container3 {
+    background-color: #061747;
+    display: flex;
+    max-width: 100%;
+    padding-top: 8%;
+    padding-left: 9%;
+}
+
+/* .headingtext{
+    display: flex;
+} */
+.container3 div h1 {
+    display: inline;
+    color: rgb(197, 195, 195);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.container3 div h2 {
+    color: rgb(236, 203, 13);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container3 p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8%;
+    margin-left: 20%;
+}
+
+.teamimg img {
+    padding-top: 40px;
+    padding-left: 25%;
+    padding-right: 30%;
+    float: none;
+    background-color: #061747;
+
+}
+
+.teamimg i {
+    position: absolute;
+    top: 185%;
+    left: 45%;
+    color: rgb(235, 230, 230);
+    
+}
+
+/* styling for .container4  */
+
+.container4 {
+    width: 1100px;
+    height: 650px;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.first {
+    padding: 10px;
+    margin: 10px;
+}
+
+.first span {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #04362e;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first h3 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.first p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    flex: 1 1 21rem;
+    margin: 10px 20px;
+    background: #e7e6e6;
+    box-shadow: 0 0 15px black;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+
+}
+
+/* styling for .container5   */
+.container5 {
+    display: inline;
+    width: 100%;
+    height: 700px;
+}
+
+.container5 img {
+    float: left;
+    max-width: 700px;
+    max-height: 700px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.container5 h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 50%;
+}
+
+.container5 h1 span {
+    color: #308b7c;
+}
+
+.container5 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 50%;
+}
+
+.secondcircle {
+    width: 200px;
+    height: 200px;
+    background: #04362e;
+    margin-top: 10% auto;
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 350%;
+    left: 33%;
+
+}
+
+.secondcircle i {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.secondcircle b {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    font-size: 50px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.secondcircle p {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 70%;
+    font-size: 1em;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.secondcircle h5 {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 80%;
+    font-size: 1em;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styling of .container6  */
+
+.container6 {
+    display: flex;
+    background-color: white;
+}
+
+.textofcontent {
+    padding: 20px;
+    margin: 30px;
+    margin-left: 13%;
+}
+
+.textofcontent h1 {
+    color: #090436;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textofcontent p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* styling for .container7  */
+/* #logoicon img{
+    max-width: 8%;
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    
+} */
+.imageofgirl {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 482%;
+    left: 40%;
+    filter: blur();
+}
+
+#logoicon123 img {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 449%;
+    left: 82%;
+    filter: drop-shadow();
+    rotate: 90;
+}
+
+.container7 {
+    height: 652px;
+}
+
+.imageofcon7 {
+    display: inline;
+    padding-left: 15%;
+    padding-right: 10px;
+
+}
+
+.imageofcon7 h1 {
+    font-size: 55px;
+    margin-top: 10%;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageofcon7 p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageofcon7 b {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageofcon7 span {
+    font-size: 16px;
+
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageofcon7 img {
+    height: 832px;
+}
+
+/* styling for .container8  */
+.container8 {
+    height: 690px;
+    background-color: #d6d6da;
+}
+
+.stext {
+    display: flex;
+    padding: 20px;
+    margin-top: 20%;
+}
+
+.div1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    /* margin-right: 5%; */
+    padding-left: 15%;
+}
+
+.div2 {
+    font-size: 25px;
+    margin-top: 6%;
+    margin-left: 10%;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stext i {
+    margin: 10px;
+}
+
+.slongcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slongcard {
+    margin-top: 4%;
+}
+
+.longcard {
+    /* flex: 1 1 3rem; */
+
+    margin: 10px 20px;
+    margin-top: 20px;
+    background: rgb(243, 240, 240);
+    box-shadow: 0 0 15px rgb(4, 65, 57);
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 550px;
+    height: 190px;
+}
+
+.longcard img {
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    /* mix-blend-mode: difference; */
+}
+
+.longcard h4 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.longcard h5 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.longcard i {
+    font-size: 40px;
+    color: rgb(241, 241, 32);
+}
+
+/* styling for .container9  */
+.container9 {
+    height: 950px;
+    background-color: white;
+
+
+}
+
+.textspp {
+    display: flex;
+
+}
+
+.divco1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    padding-left: 10%;
+
+}
+
+.divco2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6%;
+    padding-left: 30%;
+}
+
+.textspp i {
+    margin: 10px;
+}
+
+.containercard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cardofsecond {
+    flex: 1 1 21rem;
+    /* margin: 10px 20px; */
+    margin: 20px;
+    background: #e7e6e6;
+    border-radius: 10px;
+    width: 200px;
+
+}
+
+.cardofsecond img {
+    width: 100%;
+}
+
+.card-bodyoftext h6 {
+    font-size: 17px;
+    padding-bottom: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-bodyoftext h6 span {
+    font-size: 17px;
+    font-weight: 100;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-bodyoftext h1 {
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.card-bodyoftext p {
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.card-bodyoftext h3 {
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+/* styling for .container10  */
+.container10 {
+    height: 652px;
+    background-color: #030118;
+}
+
+.second-imageofcon7 {
+    display: inline;
+    padding-left: 15%;
+    padding-right: 10px;
+
+}
+
+.second-imageofcon7 h1 {
+    font-size: 55px;
+    color: white;
+    margin-top: 10%;
+    padding-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-imageofcon7 p {
+    position: absolute;
+    top: 784%;
+    left: 15%;
+    color: gray;
+}
+
+
+.second-imageofcon7 img {
+    /* height: 832px; */
+    mix-blend-mode: normal;
+}
+
+.btn234 {
+    font-size: 20px;
+    margin-top: 70px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.second-imageofcon7 button {
+    border: 0;
+    border-radius: 100px;
+    background-color: #cedb14;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerof4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footerof4 div {
+    padding: 20px;
+    padding-right: 10%;
+    margin: 20px;
+}
+
+.footeroflast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1 img {
+    width: 200px;
+}
+
+.foot1 i {
+    padding-top: 30px;
+    margin-left: 30px;
+    color: grey;
+}
+
+.foot2 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold */
+}
+
+.foot3 p {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.foot3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot4 p {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.foot4 h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footeroflast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 20px;
+    background-color: rgb(219, 221, 221);
+}
+.lastfoot1{
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.lastfoot1 span{
+    display: inline;
+}
+.lastfoot2{
+    padding-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.lastfoot3{
+    padding-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.lastfoot4{
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.lastfoot5{
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
